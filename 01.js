@@ -16,4 +16,4 @@ var name= "Sophie";
 var firstName= "Gillard";
 var city= "Hevillers";
 
-console.log('My name is '+name+ firstName+' and I live in '+ city);
+console.log("My name is " + name + "  " + firstName +" and I live in "+ city +".");
