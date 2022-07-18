@@ -4,11 +4,11 @@
 //Example: If the user enters 3 for n then 1, 2 and 3, the program should display 6.
 
 var n = parseInt(prompt("Please enter a number"));
-var sum = 0
+var sum = 0;
 
-for (let i = 1; i <= n; i++) {
+for (let i = 0; i < n; i++) {
    b = parseInt(prompt("enter another number"));
-   sum += b;
+   sum += b;  sum = sum+b
 }
 alert(sum);
 
